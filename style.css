@@ -51,16 +51,20 @@ p { /*all paragraph text set to size*/
 }
 
 /*space where first img goes*/
-
+.top-center {
+    max-height: 800px;
+    max-width: 600px;
+    position: center;
+}
 .hero { /*location of main image*/
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    /*img needs src/href and alt - go in html?*/
-   /* background-image: url("../images/digital-marketing-meeting.jpg") alt="digital-marketing-meeting"; */
+    max-height: 800px;
+    max-width: 200px;
+    margin-bottom: 200px;
     background-size: cover;
     background-position: center;
 }
+
+
 
 .float-left { /*where box1 image should be located */
     float: left;
