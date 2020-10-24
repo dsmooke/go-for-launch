@@ -168,11 +168,11 @@ p { /*all paragraph text set to size*/
     max-height: 200px;
 }
 
-.online-reputation-management /*img*/ { /*box2 space for image*/
+.online-reputation-management img /*img*/ { /*box2 space for image*/
     max-height: 200px;
 }
 
-.social-media-marketing /*img*/ { /*box3 space for image*/
+.social-media-marketing img  {  /*box3 space for image*/
     max-height: 200px;
 }
 
@@ -201,7 +201,7 @@ p { /*all paragraph text set to size*/
 .footer h2 { /*footer title size*/
     font-size: 20px;
 }
-/*
+
 #social-media-marketing {
-    height: 200px
-}*/
+    max-height: 200px
+}
