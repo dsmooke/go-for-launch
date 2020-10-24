@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
 }
 
 body {
@@ -53,14 +52,14 @@ p { /*all paragraph text set to size*/
 /*space where first img goes*/
 .top-center {
     max-height: 800px;
-    max-width: 600px;
+    padding-bottom: 20px;
     position: center;
 }
 .hero { /*location of main image*/
     /* max-height: 800px; */
     /* max-width: 200px; */
-    background-size: cover;
-    background-position: center;
+    /* background-size: cover; */
+    /* background-position: center; */
 }
 
 
