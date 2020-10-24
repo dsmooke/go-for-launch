@@ -57,9 +57,8 @@ p { /*all paragraph text set to size*/
     position: center;
 }
 .hero { /*location of main image*/
-    max-height: 800px;
-    max-width: 200px;
-    margin-bottom: 200px;
+    /* max-height: 800px; */
+    /* max-width: 200px; */
     background-size: cover;
     background-position: center;
 }
