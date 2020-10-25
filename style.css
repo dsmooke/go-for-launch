@@ -83,6 +83,7 @@ p { /*all paragraph text set to size*/
 .benefits { /* sidebar box*/
     margin-right: 20px;
     padding: 20px;
+    padding-bottom: 335px;
     clear: both;
     float: right;
     width: 20%;
