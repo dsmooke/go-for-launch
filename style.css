@@ -67,16 +67,19 @@ p { /*all paragraph text set to size*/
 
 .float-left { /*where box1 image should be located */
     float: left;
-    margin-right: 25px;
+    margin-right: 20px;
+    margin-left: -20px;
 }
 
 .float-right { /* where box2 image should be located */
     float: right;
-    margin-left: 25px;
+    margin-left: 20px;
+    margin-right: -20px;
 }
 
 .content { /* box1, box2, box3 dimensions, makes room for sidebar */
     width: 75%;
+    height: 60%;
     display: inline-block;
     margin-left: 20px;
 }
@@ -98,27 +101,7 @@ p { /*all paragraph text set to size*/
     color: #ffffff;
 }
 
-.benefit-brand { /*Brand Awareness, sidebar, text and position */
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost { /*Cost Management, sidebar, text and position */
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
 .benefit-lead h3 { /*Lead Generation title, sidebar, text and position */
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 { /*Brand Awareness title, sidebar, text and position*/
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 { /*Cost Management title, sidebar, text and position*/
     margin-bottom: 10px;
     text-align: center;
 }
@@ -129,10 +112,30 @@ p { /*all paragraph text set to size*/
     max-width: 150px;
 }
 
+.benefit-brand { /*Brand Awareness, sidebar, text and position */
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand h3 { /*Brand Awareness title, sidebar, text and position*/
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .benefit-brand img { /*BrandAw image position in sidebar*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+
+.benefit-cost { /*Cost Management, sidebar, text and position */
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost h3 { /*Cost Management title, sidebar, text and position*/
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .benefit-cost img { /*CostMan image position in sidebar*/
@@ -141,27 +144,13 @@ p { /*all paragraph text set to size*/
     max-width: 150px;
 }
 
+/*------------------------------------------------------------------*/
+
 .search-engine-optimization { /*box1 blue background*/
     margin-bottom: 20px;
+    margin-right: 15px;
     padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management { /*box2 blue background*/
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing { /*box3 bllue background*/
-    margin-bottom: 20px;
-    padding: 50px;
+    padding-right: 20px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
@@ -169,33 +158,59 @@ p { /*all paragraph text set to size*/
 }
 
 .search-engine-optimization img { /*box1 space for image*/
-    max-height: 200px;
+    max-height: 180px;
     position:local;
-}
-
-.online-reputation-management img /*img*/ { /*box2 space for image*/
-    max-height: 200px;
-    position: local;
-}
-
-.social-media-marketing img  {  /*box3 space for image*/
-    max-height: 200px;
-    position: local;
 }
 
 .search-engine-optimization h2 { /*box1 title text and position*/
     margin-bottom: 20px;
-    /* font-size: 36px; */
+    padding-right: 50px;
+    font-size: 30px;
+}
+
+.online-reputation-management { /*box2 blue background*/
+    margin-bottom: 20px;
+    margin-right: 15px;
+    padding: 50px;
+    padding-top: 40px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management p {
+    margin-left:-20px;
+}
+.online-reputation-management img /*img*/ { /*box2 space for image*/
+    max-height: 180px;
+    position: local;
 }
 
 .online-reputation-management h2 { /*box2 title text and position*/
     margin-bottom: 20px;
-    font-size: 36px;
+    margin-left:-20px;
+    font-size: 30px;
+}
+
+.social-media-marketing { /*box3 bllue background*/
+    margin-bottom: 20px;
+    margin-right: 15px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing img  {  /*box3 space for image*/
+    max-height: 180px;
+    position: local;
 }
 
 .social-media-marketing h2 { /*box3 title text and position*/
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .footer { /*footer position, text, etc*/
@@ -209,3 +224,18 @@ p { /*all paragraph text set to size*/
     font-size: 20px;
 }
 
+h3 {
+    font-size: 14px;
+}
+
+.search-engine-optimization h2 {
+    font-size: 20px;
+}
+
+.online-reputation-management h2 {
+    font-size: 20px;
+}
+
+.social-media-marketing h2 {
+    font-size: 20px;
+}
