@@ -46,7 +46,7 @@ a { /*navigation options names*/
 }
 
 p { /*all paragraph text set to size*/
-    font-size: 16px;
+    /* font-size: 16px; */
 }
 
 /*space where first img goes*/
@@ -169,14 +169,17 @@ p { /*all paragraph text set to size*/
 
 .search-engine-optimization img { /*box1 space for image*/
     max-height: 200px;
+    position:local;
 }
 
 .online-reputation-management img /*img*/ { /*box2 space for image*/
     max-height: 200px;
+    position: local;
 }
 
 .social-media-marketing img  {  /*box3 space for image*/
     max-height: 200px;
+    position: local;
 }
 
 .search-engine-optimization h2 { /*box1 title text and position*/
