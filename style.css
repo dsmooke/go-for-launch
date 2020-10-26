@@ -46,13 +46,14 @@ a { /*navigation options names*/
 }
 
 p { /*all paragraph text set to size*/
-    /* font-size: 16px; */
+    font-size: 16px;
 }
 
 /*space where first img goes*/
 .top-center {
     max-height: 800px;
-    padding-bottom: 209px;
+    max-width: 887px;
+    /* padding-bottom: 209px; */
     position: center;
 }
 .hero { /*location of main image*/
