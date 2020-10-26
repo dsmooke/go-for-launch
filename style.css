@@ -48,19 +48,24 @@ a { /*navigation options names*/
 p { /*all paragraph text set to size*/
     font-size: 16px;
 }
+.top-center {
+    height: 800px;
+    width: 886px;
+}
 
 /*space where first img goes*/
 .top-center {
-    max-height: 800px;
-    max-width: 887px;
+    height: 100%;
+    width: 100%;
     padding-bottom: 15px;
     position: center;
+    scale: 1.0
 }
 .hero { /*location of main image*/
-    /* max-height: 800px; */
-    /* max-width: 200px; */
-    /* background-size: cover; */
-    /* background-position: center; */
+    max-height: 800px;
+    max-width: 200px;
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -85,7 +90,7 @@ p { /*all paragraph text set to size*/
 }
 
 .benefits { /* sidebar box*/
-    /*margin-right: 20px;*/
+    *margin-right: 20px;*;
     padding: 20px;
     padding-bottom: 10px;
     clear: both;
@@ -106,7 +111,7 @@ p { /*all paragraph text set to size*/
     text-align: center;
 }
 
-.benefit-lead p {
+.benefit-lead p { /* leadgen paragraph/text*/
     margin-top: -10px;
 }
 
@@ -120,7 +125,7 @@ p { /*all paragraph text set to size*/
     margin-bottom: 32px;
     color: #ffffff;
 }
-.benefit-brand p {
+.benefit-brand p { /*brandaware paragraph/text*/
     margin-top: -10px;
 }
 .benefit-brand h3 { /*Brand Awareness title, sidebar, text and position*/
@@ -139,6 +144,9 @@ p { /*all paragraph text set to size*/
     color: #ffffff;
 }
 
+.benefit-cost p { /*costmang paragraph/text*/
+    margin-top: -10px;
+}
 .benefit-cost h3 { /*Cost Management title, sidebar, text and position*/
     margin-bottom: 10px;
     text-align: center;
