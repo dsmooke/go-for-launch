@@ -120,7 +120,9 @@ p { /*all paragraph text set to size*/
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+.benefit-brand p {
+    margin-top: -10px;
+}
 .benefit-brand h3 { /*Brand Awareness title, sidebar, text and position*/
     margin-bottom: 10px;
     text-align: center;
