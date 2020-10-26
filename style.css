@@ -106,6 +106,10 @@ p { /*all paragraph text set to size*/
     text-align: center;
 }
 
+.benefit-lead p {
+    margin-top: -10px;
+}
+
 .benefit-lead img { /*LeadGen image posiiton in sidebar*/
     display: block;
     margin: 10px auto;
