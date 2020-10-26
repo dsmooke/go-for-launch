@@ -85,12 +85,12 @@ p { /*all paragraph text set to size*/
 }
 
 .benefits { /* sidebar box*/
-    margin-right: 20px;
+    /*margin-right: 20px;*/
     padding: 20px;
     padding-bottom: 10px;
     clear: both;
     float: right;
-    width: 20%;
+    width: 22.74%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
@@ -182,7 +182,7 @@ p { /*all paragraph text set to size*/
 .online-reputation-management h2 { /*box2 title text and position*/
     margin-bottom: 20px;
     margin-left:-20px;
-    font-size: 36px;
+    font-size: 30px;
 }
 .online-reputation-management p {
     margin-left:-20px;
@@ -191,8 +191,6 @@ p { /*all paragraph text set to size*/
     max-height: 180px;
     position: local;
 }
-
-
 
 .social-media-marketing { /*box3 bllue background*/
     margin-bottom: 20px;
