@@ -179,6 +179,11 @@ p { /*all paragraph text set to size*/
     color: #ffffff;
 }
 
+.online-reputation-management h2 { /*box2 title text and position*/
+    margin-bottom: 20px;
+    margin-left:-20px;
+    font-size: 36px;
+}
 .online-reputation-management p {
     margin-left:-20px;
 }
@@ -187,11 +192,7 @@ p { /*all paragraph text set to size*/
     position: local;
 }
 
-.online-reputation-management h2 { /*box2 title text and position*/
-    margin-bottom: 20px;
-    margin-left:-20px;
-    font-size: 30px;
-}
+
 
 .social-media-marketing { /*box3 bllue background*/
     margin-bottom: 20px;
@@ -203,6 +204,9 @@ p { /*all paragraph text set to size*/
     color: #ffffff;
 }
 
+#social-media-marketing {
+    padding-right: 20px;
+}
 .social-media-marketing img  {  /*box3 space for image*/
     max-height: 180px;
     position: local;
