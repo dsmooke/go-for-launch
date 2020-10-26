@@ -90,12 +90,12 @@ p { /*all paragraph text set to size*/
 }
 
 .benefits { /* sidebar box*/
-    *margin-right: 20px;*;
+    margin-right: 20px;
     padding: 20px;
     padding-bottom: 10px;
     clear: both;
     float: right;
-    width: 22.74%;
+    width: 21%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
@@ -241,7 +241,7 @@ p { /*all paragraph text set to size*/
 }
 
 h3 {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .search-engine-optimization h2 {
