@@ -98,12 +98,6 @@ main .banner {
     max-height: 180px;
     position: local;
 }
-.content { /* box1, box2, box3 dimensions, makes room for sidebar */
-    width: 75%;
-    height: 60%;
-    display: inline-block;
-    margin-left: 20px;
-}
 
 .blue-boxes {
     margin-bottom: 20px;
