@@ -78,20 +78,30 @@ main .banner {
     background-position: center;
 }
 
+.seo-img {
+    float: left;
+    margin-left: -50px;
+    margin-right: 20px;
 
+}
 
-.float-left { /*where box1 image should be located */
+/*.float-left { /*where box1 image should be located 
     float: left;
     margin-right: 20px;
     margin-left: -20px;
-}
+}*/
 
-.float-right { /* where box2 image should be located */
+.orm-img { /* where box2 image should be located */
     float: right;
-    margin-left: 20px;
-    margin-right: -20px;
+    margin-left: 50px;
+    margin-right: -50px;
 }
 
+.smm-img {
+    float: left;
+    margin-left: -50px;
+    margin-right: 20px;
+}
 .content { /* box1, box2, box3 dimensions, makes room for sidebar */
     width: 75%;
     height: 60%;
