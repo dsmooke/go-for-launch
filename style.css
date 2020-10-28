@@ -7,23 +7,27 @@ body {
     background-color: #d9dcd6;
 }
 
-body nav { /* navigation bar*/
+/* entire navigation bar appearance-format*/
+body nav { 
     padding-left: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
+/*page title "Hori" and "n" format on navigation bar*/
 .nav-bar h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.nav-bar h1 .seo { /*title's coloring*/
+/*page title "seo" coloring on navigation bar*/ 
+.nav-bar h1 .seo { 
     color: #d9dcd6;
 }
 
-.nav-bar nav { /*navigation bar contents position*/
+/*navigation bar links position*/
+.nav-bar nav { 
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -31,16 +35,19 @@ body nav { /* navigation bar*/
     /* font-size: 20px; */
 }
 
-.nav-bar nav ul { /*nav options*/
+/*navigation bar links display*/
+.nav-bar nav ul { 
     list-style-type: none;
 }
 
-.nav-bar nav ul li { /*nav options spacing*/
+/*navigation bar links spacing*/
+.nav-bar nav ul li { 
     display: inline-block;
     margin-left: 25px;
 }
 
-a { /*navigation options names*/
+/*navigation bar link names*/
+a { 
     color: #ffffff;
     text-decoration: none;
     font-size: 16px;
