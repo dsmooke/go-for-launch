@@ -112,19 +112,29 @@ main .banner {
     color: #ffffff;
 }
 
+/*all h2*/
 h2 {
     margin-bottom: 20px;
     font-size: 30px;  
 }
 
-.benefits { /* sidebar box*/
+/* sidebar box*/
+aside { 
+    float: right;
+    clear: both;
     margin-right: 20px;
     padding: 20px;
     padding-bottom: 10px;
-    clear: both;
-    float: right;
     width: 21%;
     height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
@@ -134,10 +144,7 @@ h2 {
     color: #ffffff;
 }
 
-.benefit-lead h3 { /*Lead Generation title, sidebar, text and position */
-    margin-bottom: 10px;
-    text-align: center;
-}
+
 
 .benefit-lead p { /* leadgen paragraph/text*/
     margin-top: -10px;
@@ -156,10 +163,7 @@ h2 {
 .benefit-brand p { /*brandaware paragraph/text*/
     margin-top: -10px;
 }
-.benefit-brand h3 { /*Brand Awareness title, sidebar, text and position*/
-    margin-bottom: 10px;
-    text-align: center;
-}
+
 
 .benefit-brand img { /*BrandAw image position in sidebar*/
     display: block;
@@ -175,10 +179,7 @@ h2 {
 .benefit-cost p { /*costmang paragraph/text*/
     margin-top: -10px;
 }
-.benefit-cost h3 { /*Cost Management title, sidebar, text and position*/
-    margin-bottom: 10px;
-    text-align: center;
-}
+
 
 .benefit-cost img { /*CostMan image position in sidebar*/
     display: block;
@@ -189,12 +190,6 @@ h2 {
 /*------------------------------------------------------------------*/
 
 
-/*
-.search-engine-optimization h2 { /*box1 title text and position
-    margin-bottom: 20px;
-    padding-right: 50px;
-    font-size: 30px;
-}*/
 
 .online-reputation-management { /*box2 blue background*/
     margin-bottom: 20px;
@@ -207,20 +202,12 @@ h2 {
     color: #ffffff;
 }
 
-/*.online-reputation-management h2 { /*box2 title text and position
-    margin-bottom: 20px;
-    margin-left:-20px;
-    font-size: 30px;
-}*/
+
 
 .online-reputation-management p {
     margin-left:-20px;
 }
 
-/*.social-media-marketing h2 { /*box3 title text and position
-    margin-bottom: 20px;
-    font-size: 30px;
-}*/
 
 .footer { /*footer position, text, etc*/
     padding: 30px;
@@ -233,18 +220,3 @@ h2 {
     font-size: 20px;
 }
 
-h3 {
-    font-size: 16px;
-}
-
-.search-engine-optimization h2 {
-    font-size: 20px;
-}
-
-.online-reputation-management h2 {
-    font-size: 20px;
-}
-
-.social-media-marketing h2 {
-    font-size: 20px;
-}
