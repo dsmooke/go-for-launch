@@ -62,7 +62,7 @@ p { /*all paragraph text set to size*/
 }
 
 /*space where first img goes*/
-.top-center {
+.banner-location {
     height: 100%;
     width: 100%;
     padding-bottom: 15px;
@@ -70,7 +70,7 @@ p { /*all paragraph text set to size*/
     scale: 1.0
 }
 
-/*location of main image*/
+/*main banner image*/
 main .banner { 
     max-height: 800px;
     max-width: 200px;
