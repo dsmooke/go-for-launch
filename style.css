@@ -14,16 +14,16 @@ body nav { /* navigation bar*/
     color: #ffffff;
 }
 
-.header h1 {
+.nav-bar h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo { /*title's coloring*/
+.nav-bar h1 .seo { /*title's coloring*/
     color: #d9dcd6;
 }
 
-.header nav { /*navigation bar contents position*/
+.nav-bar nav { /*navigation bar contents position*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -31,11 +31,11 @@ body nav { /* navigation bar*/
     /* font-size: 20px; */
 }
 
-.header nav ul { /*nav options*/
+.nav-bar nav ul { /*nav options*/
     list-style-type: none;
 }
 
-.header nav ul li { /*nav options spacing*/
+.nav-bar nav ul li { /*nav options spacing*/
     display: inline-block;
     margin-left: 25px;
 }
