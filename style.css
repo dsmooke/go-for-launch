@@ -105,7 +105,6 @@ main .banner {
     margin-right: 15px;
     padding: 20px;
     padding-left: 50px;
-    /* padding-right: 30px; */
     height: 300px;
     width: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -113,6 +112,10 @@ main .banner {
     color: #ffffff;
 }
 
+h2 {
+    margin-bottom: 20px;
+    font-size: 30px;  
+}
 
 .benefits { /* sidebar box*/
     margin-right: 20px;
@@ -186,12 +189,12 @@ main .banner {
 /*------------------------------------------------------------------*/
 
 
-
-.search-engine-optimization h2 { /*box1 title text and position*/
+/*
+.search-engine-optimization h2 { /*box1 title text and position
     margin-bottom: 20px;
     padding-right: 50px;
     font-size: 30px;
-}
+}*/
 
 .online-reputation-management { /*box2 blue background*/
     margin-bottom: 20px;
@@ -204,19 +207,20 @@ main .banner {
     color: #ffffff;
 }
 
-.online-reputation-management h2 { /*box2 title text and position*/
+/*.online-reputation-management h2 { /*box2 title text and position
     margin-bottom: 20px;
     margin-left:-20px;
     font-size: 30px;
-}
+}*/
+
 .online-reputation-management p {
     margin-left:-20px;
 }
 
-.social-media-marketing h2 { /*box3 title text and position*/
+/*.social-media-marketing h2 { /*box3 title text and position
     margin-bottom: 20px;
     font-size: 30px;
-}
+}*/
 
 .footer { /*footer position, text, etc*/
     padding: 30px;
