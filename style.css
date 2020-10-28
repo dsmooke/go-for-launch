@@ -69,7 +69,9 @@ p { /*all paragraph text set to size*/
     position: center;
     scale: 1.0
 }
-.banner { /*location of main image*/
+
+/*location of main image*/
+main .banner { 
     max-height: 800px;
     max-width: 200px;
     background-size: cover;
