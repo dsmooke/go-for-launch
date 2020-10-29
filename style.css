@@ -160,14 +160,23 @@ h3 {
 
 /*---------------------FOOTER--------------------------*/
 
-.footer { /*footer position, text, etc*/
+/*footer format*/
+.footer { 
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    font-size: 12px;
 }
 
-.footer h2 { /*footer title size*/
-    font-size: 16px;
+/*footer title size*/
+h4 { 
+    font-size: 12px;
 }
+
+/*footer p-text size*/
+.footer p {
+    font-size: 12px;
+}
+
 
