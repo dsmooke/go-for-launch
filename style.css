@@ -99,6 +99,7 @@ main .banner {
     position: local;
 }
 
+/* all content will be stacked */
 .content {
     width: 75%;
     display: inline-block;
@@ -124,27 +125,8 @@ h2 {
     font-size: 30px;  
 }
 
-h3 {
-    font-size: 16px;
-    margin-bottom: 10px;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
+/*-------------SIDEBAR---------------*/
 
-/* sidebar box
-aside { 
-    width: 220px;
-    height: 800px;
-    float: right;
-    clear: both;
-    /*margin-right: 20px;
-    padding: 20px;
-    padding-bottom: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}*/
-
-/*--------------------------------------*/
 .sidebar {
     margin-right: 20px;
     padding: 20px;
@@ -155,18 +137,20 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
 /* position of sidebar images */
 .sidebar img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;  
+    max-width: 150px;
 }
-
-/* h3 position */
+/*all h3 (within sidebar)*/
 h3 {
+    font-size: 16px;
     margin-bottom: 10px;
     text-align: center;
-}
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
 
 /* p-text of sidebar position and format */
 .sidebar p {
@@ -174,113 +158,7 @@ h3 {
     color: #ffffff;
 }
 
-
-/*.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-
-
-
-
-
-
-/*------------------------------------------------------------------*/
-/*
-.benefit-lead { /*Lead Generation, sidebar, text and position
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-
-
-.benefit-lead p { /* leadgen paragraph/text
-    margin-top: -10px;
-}
-
-.benefit-lead img { /*LeadGen image posiiton in sidebar
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand { /*Brand Awareness, sidebar, text and position 
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-.benefit-brand p { /*brandaware paragraph/text
-    margin-top: -10px;
-}
-
-
-.benefit-brand img { /*BrandAw image position in sidebar
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost { /*Cost Management, sidebar, text and position 
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost p { /*costmang paragraph/text
-    margin-top: -10px;
-}
-
-
-.benefit-cost img { /*CostMan image position in sidebar
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/*------------------------------------------------------------------*/
-
+/*---------------------FOOTER--------------------------*/
 
 .footer { /*footer position, text, etc*/
     padding: 30px;
@@ -290,6 +168,6 @@ h3 {
 }
 
 .footer h2 { /*footer title size*/
-    font-size: 20px;
+    font-size: 16px;
 }
 
