@@ -1,32 +1,34 @@
 # Go For Launch
 
-## Refactor Starter Code to Improve Accessibility
+## Description 
 
-**Note**: First assignment for UConn Coding Boot Camp. Reference UConn's Coding Boot Camp [Homework Guide](../04-Important/Homework-Guide/README.md) and the [Good README Guide](../04-Important/Good-README-Guide/README.md) for guidelines. 
+This was the first assignment from the UConn Coding Boot Camp curriculum which combined the first week's topics: Git, Terminal, GitHub, HTML, CSS and web accessibility.
 
-This week is an odd-numbered week, so your homework is an on-the-job ticket, which means you'll begin with starter code that you need to modify. This week's homework involves a very important aspect of web development: **accessibility**. 
+## Goals
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it (recall that to refactor code is to improve it without changing what it does) to meet a certain set of standards or implement a new technology. In this homework, a marketing agency has hired you to refactor an existing site to make it more accessible. 
+There were two goals to this assignment: 
+1) To refractor, or restructure, the initial source code and modify it in order to improve its operation without altering its functionality.
+2) To adhere to accessibility standards - ways in which people with disabilities can access.  
 
-Web accessibility is an increasingly important consideration for businesses. It ensures that people with disabilities can access a website using assistive technologies such as video captions, screen readers, and braille keyboards. Making a website accessible is also good for business for many reasons, one of them being that accessible sites are better positioned in search engines like Google. It also helps companies avoid litigation that can occur when people with disabilities cannot access their website.
+The goals can be further understood by the following definitions:
 
-Even though accessibility is a broad topic that can include complex requirements, your tech lead has given you a small list of specific criteria to satisfy the project. These criteria are documented below in the Acceptance Criteria.
+**HTML Accessibility:** *the ease with which a user is able to navigate and interact with your site; this involves making the HTML code as semantic as possible.*
 
-**Important**: An important rule to follow when working with someone else's code is the **Scout Rule**, which recommends that you always leave the code a little cleaner than when you found it.
+**Semantic HTML:** *have the HTML element correspond to its correct purpose as much as possible.* 
 
-To impress clients, you should always go the extra mile and improve the codebase for long-term sustainability. For example, make sure that all links are functioning correctly. Also, rework the CSS to make it more efficient by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
+Ex. Instead of using the non-semantic element (such as **div**) for Table#1 you could change the **div** element to the semantic element **table** so that the **table** element is referring to Table#1. 
 
-Are you ready to jump in? Here are this week's homework requirements:
+**Semantic Elements:** *elements with meaning.*
 
-## User Story
+### Instructions
+Our instructions were based on a the following User Story:
 
 ```
 AS A marketing agency
 I WANT a codebase that follows accessibility standards
 SO THAT our own site is optimized for search engines
 ```
-
-## Acceptance Criteria
+Our webpage had to meet the following criteria: 
 
 ```
 GIVEN a webpage meets accessibility standards
@@ -42,6 +44,13 @@ WHEN I view the title element
 THEN I find a concise, descriptive title
 ```
 
+## Developer
+<!--Horiseon Online Service's website experienced a number of HTML semantic challenges in the initial code, which can be found in the initial commit.
+These challenges went against accessibility standards.  I focused on making sure the application's links functioned correctly, consolidating 
+the CSS selectors to follow semantic structure, and commenting the CSS and HTML files appropriately.  
+**View the refactored web page:** [Horiseon - Refactored][demo]-->
+
+
 ## Mock-Up
 
 The following image shows the web application's appearance and functionality:
@@ -49,20 +58,6 @@ The following image shows the web application's appearance and functionality:
 <!--change image of working webpage, remove demo-->
 ![code refactor demo](./Assets/01-html-css-git-homework-demo. png)
 
-
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following code improvements:
-
-  * Application's links all function correctly.
-
-  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
-
-  * Application's CSS file is properly commented.
 
 ### Deployment: 32%
 
@@ -74,19 +69,11 @@ This homework is graded based on the following criteria:
 
 * GitHub repository that contains application code.
 
-### Application Quality: 15%
 
-* Application resembles (at least 90%) screenshots provided in the homework instructions.
 
 ### Repository Quality: 13%
 
-* Repository has a unique name.
-
 * Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
 
 * Repository contains quality README file with description, screenshot, and link to deployed application.
 
