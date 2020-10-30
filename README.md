@@ -2,7 +2,7 @@
 
 ## Description 
 
-This was the first assignment from the UConn Coding Boot Camp curriculum which combined the first week's topics: Git, Terminal, GitHub, HTML, CSS and web accessibility.
+This was the first assignment from the UConn Coding Boot Camp curriculum which combined the first week's topics: Git, Terminal, GitHub, GitHub Pages, HTML, CSS and Web Accessibility.
 
 ## Goals
 
@@ -45,10 +45,12 @@ THEN I find a concise, descriptive title
 ```
 
 ## Developer
-<!--Horiseon Online Service's website experienced a number of HTML semantic challenges in the initial code, which can be found in the initial commit.
+<!--Horiseon, a marketing agency,  Online Service's website experienced a number of HTML semantic challenges in the initial code, which can be found in the initial commit.
 These challenges went against accessibility standards.  I focused on making sure the application's links functioned correctly, consolidating 
 the CSS selectors to follow semantic structure, and commenting the CSS and HTML files appropriately.  
 **View the refactored web page:** [Horiseon - Refactored][demo]-->
+
+https://github.com/dsmooke/go-for-launch
 
 
 ## Mock-Up
@@ -56,7 +58,7 @@ the CSS selectors to follow semantic structure, and commenting the CSS and HTML 
 The following image shows the web application's appearance and functionality:
 
 <!--change image of working webpage, remove demo-->
-![code refactor demo](./Assets/01-html-css-git-homework-demo. png)
+![original code demo](/img/Horiseon-demo-code-before.png)
 
 
 ### Deployment: 32%
