@@ -45,50 +45,25 @@ THEN I find a concise, descriptive title
 ```
 
 ## Developer
-The website for the marketing agency, Horiseon, experienced a number of non-semantic elements in the initial source code. ![original code demo](/img/Horiseon-demo-code-before.png) <!--image of original code without semantic elements-->See initial commit for both HTML and CSS files. 
+The website for the marketing agency, Horiseon, experienced a number of non-semantic elements in the initial source code. ![original code demo](/img/Horiseon-demo-code-before.png) <!--image of original code without semantic elements-->
+See initial commit for both HTML and CSS files. 
 
-I focused on the following: changing non-semantic elemnts into semantic elements wherever possible, omitting redundancies, ensuring that each image link functioned properly, consolidating the CSS selectors, and providing detailed comments that describe each element's function as well as serve as labels for each section of the webpage (e.g. "Sidebar") <!--image of refactored code with semantic elements-->![refactored code demo][link]
+I focused on the following: changing non-semantic elemnts into semantic elements wherever possible, omitting redundancies, ensuring that each image link functioned properly, consolidating the CSS selectors, and providing detailed comments that describe each element's function as well as serve as labels for each section of the webpage (e.g. "Sidebar") <!--image of refactored code with semantic elements-->![refactored code demo](img/refactored-code-demo.png)
 
-. 
 
-**View the refactored web page:** [Horiseon - Refactored][https://dsmooke.github.io/go-for-launch/]
+**View the refactored web page:** [Horiseon - Refactored](https://dsmooke.github.io/go-for-launch/)
 
-<!--Future reference to view a webpage with a link: [TEXT TO SHOW][full URL] aka
-[This is Relative Link Name][actual URL of webpage you are linking]-->
+<!--Future reference to view a webpage with a link: [TEXT TO SHOW](full URL) aka
+[This is Relative Link Name](actual URL of webpage you are linking)-->
 
 ## Mock-Up
 
 The following image shows the web application's appearance and functionality:
 
 <!--image of working webpage-->
-![original code demo](/img/Horiseon-demo-code-before.png)
+![demo](img/horiseon-working-demo.png)
 
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-
-
-### Repository Quality: 13%
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+<!--for future reference: screenshot>save file to desktop>rename file>copy file>paste in home/dana/coding-bootcamp/HW1/img so that image registers in vs code> git add file in terminal and commit and push to github>to insert image link into readme copy the image's relative file path and paste into the code-->
 
 - - -
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.# go-for-launch
