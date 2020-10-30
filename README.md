@@ -45,19 +45,22 @@ THEN I find a concise, descriptive title
 ```
 
 ## Developer
-<!--Horiseon, a marketing agency,  Online Service's website experienced a number of HTML semantic challenges in the initial code, which can be found in the initial commit.
-These challenges went against accessibility standards.  I focused on making sure the application's links functioned correctly, consolidating 
-the CSS selectors to follow semantic structure, and commenting the CSS and HTML files appropriately.  
-**View the refactored web page:** [Horiseon - Refactored][demo]-->
+The website for the marketing agency, Horiseon, experienced a number of non-semantic elements in the initial source code. ![original code demo](/img/Horiseon-demo-code-before.png) <!--image of original code without semantic elements-->See initial commit for both HTML and CSS files. 
 
-https://github.com/dsmooke/go-for-launch
+I focused on the following: changing non-semantic elemnts into semantic elements wherever possible, omitting redundancies, ensuring that each image link functioned properly, consolidating the CSS selectors, and providing detailed comments that describe each element's function as well as serve as labels for each section of the webpage (e.g. "Sidebar") <!--image of refactored code with semantic elements-->![refactored code demo][link]
 
+. 
+
+**View the refactored web page:** [Horiseon - Refactored][https://dsmooke.github.io/go-for-launch/]
+
+<!--Future reference to view a webpage with a link: [TEXT TO SHOW][full URL] aka
+[This is Relative Link Name][actual URL of webpage you are linking]-->
 
 ## Mock-Up
 
 The following image shows the web application's appearance and functionality:
 
-<!--change image of working webpage, remove demo-->
+<!--image of working webpage-->
 ![original code demo](/img/Horiseon-demo-code-before.png)
 
 
