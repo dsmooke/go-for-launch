@@ -48,7 +48,7 @@ THEN I find a concise, descriptive title
 The website for the marketing agency, Horiseon, experienced a number of non-semantic elements in the initial source code. ![original code demo](/img/Horiseon-demo-code-before.png) <!--image of original code without semantic elements-->
 See initial commit for both HTML and CSS files. 
 
-I focused on the following: changing non-semantic elemnts into semantic elements wherever possible, omitting redundancies, ensuring that each image link functioned properly, consolidating the CSS selectors, and providing detailed comments that describe each element's function as well as serve as labels for each section of the webpage (e.g. "Sidebar") <!--image of refactored code with semantic elements-->![refactored code demo](img/refactored-code-demo.png)
+I focused on the following: changing non-semantic elemnts into semantic elements wherever possible, omitting redundancies, ensuring that each image link functioned properly, consolidating the CSS selectors, and providing detailed comments that describe each element's function as well as serving as labels for each section of the webpage (e.g. "Sidebar") <!--image of refactored code with semantic elements-->![refactored code demo](img/refactored-code-demo.png)
 
 
 **View the refactored web page:** [Horiseon - Refactored](https://dsmooke.github.io/go-for-launch/)
