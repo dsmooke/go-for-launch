@@ -1,5 +1,7 @@
 # Go For Launch
 
+![demo-img](img/refactored-demo.png)
+
 ## Description 
 
 This was the first assignment from the UConn Coding Boot Camp curriculum which combined the first week's topics: Git, Terminal, GitHub, GitHub Pages, HTML, CSS and Web Accessibility.
@@ -12,11 +14,15 @@ There were two goals to this assignment:
 1) To refractor, or restructure, the initial source code and modify it in order to improve its operation without altering its functionality.
 2) To adhere to accessibility standards - ways in which people with disabilities can access.  
 
+### Definitions
+
 The goals can be further understood by the following definitions:
 
-**HTML Accessibility:** *the ease with which a user is able to navigate and interact with your site; this involves making the HTML code as semantic as possible.*
+**HTML Accessibility:**
+the ease with which a user is able to navigate and interact with your site; this involves making the HTML code as semantic as possible.
 
-**Semantic HTML:** *have the HTML element correspond to its correct purpose as much as possible.* 
+**Semantic HTML:** 
+have the HTML element correspond to its correct purpose as much as possible.
 
 Ex. Instead of using the non-semantic element (such as **div**) for Table#1 you could change the **div** element to the semantic element **table** so that the **table** element is referring to Table#1. 
 
