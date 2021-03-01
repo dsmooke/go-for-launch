@@ -4,6 +4,8 @@
 
 This was the first assignment from the UConn Coding Boot Camp curriculum which combined the first week's topics: Git, Terminal, GitHub, GitHub Pages, HTML, CSS and Web Accessibility.
 
+View the refactored web page [here](https://dsmooke.github.io/go-for-launch/)
+
 ## Goals
 
 There were two goals to this assignment: 
@@ -50,8 +52,6 @@ See initial commit for both HTML and CSS files.
 
 I focused on the following: changing non-semantic elemnts into semantic elements wherever possible, omitting redundancies, ensuring that each image link functioned properly, consolidating the CSS selectors, and providing detailed comments that describe each element's function as well as serving as labels for each section of the webpage (e.g. "Sidebar") <!--image of refactored code with semantic elements-->![refactored code demo](img/refactored-code-demo.png)
 
-
-**View the refactored web page:** [Horiseon - Refactored](https://dsmooke.github.io/go-for-launch/)
 
 <!--Future reference to view a webpage with a link: [TEXT TO SHOW](full URL) aka
 [This is Relative Link Name](actual URL of webpage you are linking)-->
