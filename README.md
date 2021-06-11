@@ -1,12 +1,23 @@
 # Go For Launch
 
+<span align="left">
+
+<a href="https://img.shields.io/badge/License-MIT-brightgreen?style=plastic"><img alt="M.I.T. License use" src="https://img.shields.io/badge/License-MIT-brightgreen?style=plastic"/></a>
+
+ </span>
+ 
 ![demo-img](img/refactored-demo.png)
 
 ## Description 
 
-This was the first assignment from the UConn Coding Boot Camp curriculum which combined the first week's topics: Git, Terminal, GitHub, GitHub Pages, HTML, CSS and Web Accessibility.
+Refactored starter code that improves the operation of the application without altering its functionality with the use of semantic HTML and web accessibility standards. 
 
 View the refactored web page [here](https://dsmooke.github.io/go-for-launch/)
+
+## Technologies Used
+
+- HTML5
+- CSS
 
 ## Goals
 
@@ -70,6 +81,18 @@ The following image shows the web application's appearance and functionality:
 ![demo](img/horiseon-working-demo.png)
 
 <!--for future reference: screenshot>save file to desktop>rename file>copy file>paste in home/dana/coding-bootcamp/HW1/img so that image registers in vs code> git add file in terminal and commit and push to github>to insert image link into readme copy the image's relative file path and paste into the code-->
+
+## Installation
+
+1. Clone repo.
+
+## Contributing
+
+[Dana Smooke]("https://github.com/dsmooke")
+
+## License
+
+[MIT]("https://opensource.org/licenses/MIT")
 
 - - -
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.# go-for-launch
